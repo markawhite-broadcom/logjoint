@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30204.135
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E5ECBEAD-F934-46D0-8B0A-DFD7921195FE}"
 EndProject
@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Azure", "Azure", "{62459631
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "logjoint.regex", "logjoint.regex\logjoint.regex.csproj", "{BD86CFB6-6F33-49C4-9D37-B8B7C98AA045}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "logjoint", "logjoint.winforms\logjoint.csproj", "{929F7C79-E2BB-4E6C-AF17-F21E5025265A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "logjoint", "logjoint.winforms\logjoint.csproj", "{929F7C79-E2BB-4E6C-AF17-F21E5025265A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "logjoint.updater", "logjoint.updater\logjoint.updater.csproj", "{BE661D5D-8A37-47A5-BB6E-2EB743C99A45}"
 EndProject
@@ -39,11 +39,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "logjoint.test.logging.app",
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PacketAnalysis", "PacketAnalysis", "{09B349A1-3052-4DC3-A2C5-70506B5FE2A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "logjoint.packet-analysis.plugin", "..\..\extensions\packet-analysis\platforms\windows\logjoint.packet-analysis.plugin\logjoint.packet-analysis.plugin.csproj", "{E84CB001-5D95-437B-BF2C-B72E1441A173}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "logjoint.packet-analysis.plugin", "..\..\extensions\packet-analysis\platforms\windows\logjoint.packet-analysis.plugin\logjoint.packet-analysis.plugin.csproj", "{E84CB001-5D95-437B-BF2C-B72E1441A173}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sdk", "sdk", "{54ED413E-138D-4FC9-853B-29C3476F9ECB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "logjoint.sdk", "sdk\logjoint.sdk\logjoint.sdk.csproj", "{4726350D-E0C1-43A2-A491-6C4558115A62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "logjoint.sdk", "sdk\logjoint.sdk\logjoint.sdk.csproj", "{4726350D-E0C1-43A2-A491-6C4558115A62}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "logjoint.model.sdk", "..\..\sdk\model\logjoint.model.sdk.csproj", "{AEABDCA0-469B-4B49-9904-B04699E88858}"
 EndProject
@@ -119,7 +119,6 @@ Global
 		{BD86CFB6-6F33-49C4-9D37-B8B7C98AA045}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD86CFB6-6F33-49C4-9D37-B8B7C98AA045}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BD86CFB6-6F33-49C4-9D37-B8B7C98AA045}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{BD86CFB6-6F33-49C4-9D37-B8B7C98AA045}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{929F7C79-E2BB-4E6C-AF17-F21E5025265A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{929F7C79-E2BB-4E6C-AF17-F21E5025265A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{929F7C79-E2BB-4E6C-AF17-F21E5025265A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -599,7 +598,6 @@ Global
 		{A35F73DA-623A-4864-8A3D-58DBFFE3FC03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A35F73DA-623A-4864-8A3D-58DBFFE3FC03}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A35F73DA-623A-4864-8A3D-58DBFFE3FC03}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{A35F73DA-623A-4864-8A3D-58DBFFE3FC03}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{53CBC5F6-03BC-45F8-97EF-C99FECA551DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{53CBC5F6-03BC-45F8-97EF-C99FECA551DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53CBC5F6-03BC-45F8-97EF-C99FECA551DE}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU

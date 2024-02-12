@@ -19,7 +19,7 @@ namespace LogJoint
 			Application.Run(WireupDependenciesAndCreateMainForm());
 		}
 
-		static Form WireupDependenciesAndCreateMainForm()
+        internal static Form WireupDependenciesAndCreateMainForm()
 		{
 			var mainForm = new UI.MainForm();
 			Properties.WebContentConfig webContentConfig = new();
